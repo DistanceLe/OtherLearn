@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+	<!-- head里面的JS-->
+	<script type="text/javascript">
+		function myFunction(){
+			document.getElementById("demo").innerHTML="我的第一个JS函数";
+		}
+	</script>
+</head>
+<body>
+	<h1>我的Web页面</h1>
+	<p id="demo">一个段落 </p>
+	<button type="button" onclick="myFunction()"> 点我吧 </button>
+
+	<!-- body里面的JS-->
+	<button type="button" onclick="mySecondFunc()"> 再点我吧 </button>
+	<script type="text/javascript">
+		function mySecondFunc(){
+			document.getElementById("demo").innerHTML="哈哈哈，再次变身吧";
+		}
+	</script>
+
+	<!--外部的JS(和上面两种一样的效果)-->
+	<script src="xxx.js"></script>
+</body>
+</html>

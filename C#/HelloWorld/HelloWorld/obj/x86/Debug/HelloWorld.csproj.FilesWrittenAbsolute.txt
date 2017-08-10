@@ -1,0 +1,5 @@
+/Users/renjinkui/Desktop/C#/HelloWorld/HelloWorld/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/renjinkui/Desktop/C#/HelloWorld/HelloWorld/bin/Debug/HelloWorld.exe.mdb
+/Users/renjinkui/Desktop/C#/HelloWorld/HelloWorld/bin/Debug/HelloWorld.exe
+/Users/renjinkui/Desktop/C#/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.exe
+/Users/renjinkui/Desktop/C#/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.exe.mdb

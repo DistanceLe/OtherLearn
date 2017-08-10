@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BGIsVisible.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameManager.cs" Line="12" Column="38" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="44" Column="28" />
+      <File FileName="Assets/Scripts/BGIsVisible.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/BGMove.cs" Line="11" Column="17" />
+      <File FileName="Assets/Scripts/PipePos.cs" Line="36" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

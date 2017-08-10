@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+</head>
+<body>
+	<h1>我的页面</h1>
+	<p>我的一个段落</p>
+	<p id="demo">....还没修改</p>
+	<button type="button" onclick="myFunc()">come on</button>
+
+	<script type="text/javascript">
+		//window.alert(44-22);
+		document.getElementById("demo").innerHTML="已修改哦";
+		
+		document.write(Date());
+
+		function myFunc(){
+			//如果在文档已完成加载后执行 document.write，整个 HTML 页面将被覆盖。
+			document.write(Date());
+
+			//控制台输出语句
+			console.log(10000222);
+		}
+	</script>
+</body>
+</html>

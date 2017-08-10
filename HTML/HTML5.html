@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5</title>
+	<script type="text/javascript">
+		document.creatElement("myHero")
+	</script>
+	<style type="text/css">
+		myHero{
+			display: block;
+			background: #ddd;
+			padding: 10px;
+			font-size: 200;
+		}
+	</style>
+</head>
+<body>
+	<video width="1000" height="200" controls>
+		<source src="movie.mp4" type="video/mp4">
+	</video>
+	<h1>我的第一个标题</h1>
+	<p>我的第一个段落</p>
+	<myHero>我的第一个新元素 <br> 第二行哦 </myHero>
+
+	<!--帆布 绘图-->
+	<canvas id="myCanvas" width="200" height="200" style="border:1px solid #000000;">
+	</canvas>
+	<script type="text/javascript">
+		var c=document.getElementById('myCanvas');
+		var ctx=c.getContext('2d');
+		ctx.fillStyle="#FF0000";
+		ctx.fillRect(0, 0, 150, 75);
+
+		ctx.moveTo(0, 0);
+		ctx.lineTo(200, 200);
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.arc(95, 50, 40, 0, 2*Math.PI);
+		ctx.stroke();
+
+		ctx.font="30px Arial";
+		ctx.fillStyle="#00FF00";
+		ctx.fillText("hello world", 10, 50);
+
+		var grd=ctx.createLinearGradient(0, 0, 200, 0);
+		grd.addColorStop(0, "red");
+		grd.addColorStop(1, "white");
+		ctx.fillStyle=grd;
+		ctx.fillRect(10, 100, 150, 80);
+	</script>
+
+</body>
+</html>

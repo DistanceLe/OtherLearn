@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{0FE2E1D7-2CA8-4E94-9A3D-E00A303D6C97}|Default">
+  <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/Event.cs">
+    <Files>
+      <File FileName="HelloWorld/ThreadDemo.cs" Line="33" Column="5" />
+      <File FileName="HelloWorld/Unsafe.cs" Line="1" Column="1" />
+      <File FileName="HelloWorld/Delegate.cs" Line="1" Column="1" />
+      <File FileName="HelloWorld/Event.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

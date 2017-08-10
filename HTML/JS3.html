@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+</head>
+<body>
+	<script type="text/javascript">
+		document.write("你好 \
+			呵呵哒");
+		var x=3;
+		var y=5;
+		var z=x+y;
+
+		var cars=new Array();
+		cars[0]="saab";
+		cars[1]="volvo";
+
+		var cars2=new Array("saab", "vovol");
+
+		var cars3=["saab", "vovol"];
+
+		var person={
+			firstName	: "John",
+			lastName	: "Doe",
+			id			: 331,
+			fullName : function(){
+				return this.firstName+ " " +this.lastName;
+			}
+		};
+
+		//两种寻址方式
+		var name=person.lastName;
+		name=person["lastName"];
+		document.write(person.fullName());
+
+		if (x>8) {
+			document.write(">8");
+		}else if(x>0){
+			document.write(">0");
+		}else{
+			document.write("<0");
+		}
+	</script>
+</body>
+</html>

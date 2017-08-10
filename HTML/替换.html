@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>正则表达式</title>
+</head>
+<body>
+	<p>He He He He He Microsoft 为 W3cSchool</p>
+	<button onclick="myFunction()">点我吧</button>
+	<p id="demo">请访问 Microsoft</p>
+
+	<script type="text/javascript">
+		function myFunction(){
+			var str = document.getElementById("demo").innerHTML;
+
+			//字符串替换
+			var txt = str.replace("Microsoft", "W3cSchool")
+
+			//正则表达式
+			//var txt = str.replace(/microsoft/i, "W3cSchool");
+
+			//查找
+			//var txt=str.search("Microsoft");
+			//var txt=str.search(/Microsoft/i);
+
+			document.getElementById("demo").innerHTML=txt;
+		}
+	</script>
+</body>
+</html>
